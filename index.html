@@ -1,149 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>blackcloudradio</title>
-    
-    <script src="https://kit.fontawesome.com/900c473be5.js" crossorigin="anonymous"></script>
-</head>
-<style>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
+
+    <script
+      src="https://kit.fontawesome.com/900c473be5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
     * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-size: 10px;
-  }
-  
-  body {
-    font-family: "Karla", sans-serif;
-    font-weight: 400;
-  }
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    html {
+      font-size: 10px;
+    }
 
-:root {
-    --blue: #2876c1;
-    --grey: #f2f3f5;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Karla", sans-serif;
-    font-weight: 700;
-  }
-  
-  a {
-    text-emphasis: none;
-    text-decoration: none;
-  }
+    body {
+      font-family: "Karla", sans-serif;
+      font-weight: 400;
+    }
 
-.main-content {
-    height: 100vh;
-    width: 100%;
-    background-color: #121212;
-}
+    :root {
+      --blue: #2876c1;
+      --grey: #f2f3f5;
+    }
 
-.container {
-    padding: 20px;
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Karla", sans-serif;
+      font-weight: 700;
+    }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+    a {
+      text-emphasis: none;
+      text-decoration: none;
+    }
 
-.title {
-    color: white;
-    font-size: 2rem;
-}
+    .main-content {
+      height: 100vh;
+      width: 100%;
+      background-color: #121212;
+    }
 
-.content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: white;
-}
+    .container {
+      padding: 20px;
+    }
 
-.btn {
-    padding: 10px 25px;
-    background-color: #C71218;
-    border-radius: 20px;
-    color: white;   
-}
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-.btn:hover{
-    background-color: white;
-    color: #C71218;
-}
+    .title {
+      color: white;
+      font-size: 2rem;
+    }
 
-.red {
-    color: #C71218;;
-}
+    .content {
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      color: white;
+    }
 
-.headline {
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-top: 100px;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-}
+    .btn {
+      padding: 10px 25px;
+      background-color: #c71218;
+      border-radius: 20px;
+      color: white;
+    }
 
-h2 {
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    color: #D40909;
-}
+    .btn:hover {
+      background-color: white;
+      color: #c71218;
+    }
 
-.fa-instagram {
-    color: white;
-    font-size: 16px;
-}
+    .red {
+      color: #c71218;
+    }
 
-.fa-instagram:hover{
-    color: #C71218;
-}
+    .headline {
+      font-size: 2rem;
+      text-transform: uppercase;
+      margin-top: 100px;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+    }
 
-iframe {
-    margin-top: 50px !important;
-}
+    h2 {
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      color: #d40909;
+    }
 
-.host {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-}
-</style>
-<body>
+    .fa-instagram {
+      color: white;
+      font-size: 16px;
+    }
+
+    .fa-instagram:hover {
+      color: #c71218;
+    }
+
+    iframe {
+      margin-top: 50px !important;
+    }
+
+    .host {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+    }
+
+    .broadcast {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+  </style>
+  <body>
     <section class="main-content">
-        <div class="container">
-            <div class="nav">
-                <div class="title"><span class="red">blackcloud</span>radio</div>
-                <a href="http://instagram.com/blackcloudstu"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="content">
-                <h1 class="headline">Breaking records for underground artists. </h1>
-                <h2>24/7 NJ Radio Station</h2>
-                <p class="host">Host: Diezey</p>
-
-                <a class="btn" href="https://s5.radio.co/scb8d40d83/listen" target="_blank">Listen Live!</a>
-                <script class="player" src="https://embed.radio.co/player/7c99de8.js"></script>
-            </div>
-
+      <div class="container">
+        <div class="nav">
+          <div class="title"><span class="red">blackcloud</span>radio</div>
+          <a href="http://instagram.com/blackcloudstu"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </div>
+        <div class="content">
+          <h1 class="headline">Breaking records for underground artists.</h1>
+          <h2>24/7 NJ Radio Station</h2>
+          <p class="host">Host: Diezey</p>
+         
+          <a
+            class="btn"
+            href="https://s5.radio.co/scb8d40d83/listen"
+            target="_blank"
+            >Listen Live!</a
+          >
+          <h1 class="broadcast red">BROADCASTING NOW</h1>
+          <script
+            class="player"
+            src="https://embed.radio.co/player/7c99de8.js"
+          ></script>
+        </div>
+      </div>
     </section>
-    
-</body>
+  </body>
 </html>
